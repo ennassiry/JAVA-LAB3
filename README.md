@@ -32,7 +32,7 @@ java
 <img width="247" height="43" alt="im11" src="https://github.com/user-attachments/assets/37e74afa-ff71-4a38-814b-c3fd6712e952" />
 
 
-# 📌 Exercice 2 — Recherche des pivots
+# 📌 Exercice 2 
 
 ### 🔹 Fonction `triangle`
 
