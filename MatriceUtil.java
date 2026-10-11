@@ -1,6 +1,5 @@
 package com.example.tp;
-
-public class MatriceUtil {
+public class TableauxDoubleUtils {
 
     /**
      * Affiche les valeurs du tableau t, à raison d'une ligne d'écran pour une ligne du tableau,
@@ -109,5 +108,50 @@ public class MatriceUtil {
         }
         
         return resultat;
+    }
+
+    // Programme de test intégré
+    public static void main(String[] args) {
+        // Déclaration de quelques tableaux pour les tests
+        double[][] t1 = {
+            {1.5, 2.0, 3.1},
+            {4.0, 5.2, 6.0}
+        };
+
+        double[][] t2 = {
+            {0.5, 1.0, 0.9},
+            {1.0, 0.8, 2.0}
+        };
+
+        double[][] t3 = {
+            {1.0, 2.0},
+            {3.0, 4.0, 5.0},
+            {6.0}
+        };
+
+        System.out.println("--- 1. Test de la methode affiche(t1) ---");
+        affiche(t1);
+
+        System.out.println("\n--- 2. Test de la methode regulier() ---");
+        System.out.println("t1 est regulier ? " + regulier(t1)); // true
+        System.out.println("t3 est regulier ? " + regulier(t3)); // false
+
+        System.out.println("\n--- 3. Test de la methode sommeLignes(t1) ---");
+        double[] sommes = sommeLignes(t1);
+        System.out.print("Sommes des lignes de t1 : [");
+        for (int i = 0; i < sommes.length; i++) {
+            System.out.print(sommes[i] + (i < sommes.length - 1 ? ", " : ""));
+        }
+        System.out.println("]");
+
+        System.out.println("\n--- 4. Test de la methode somme(t1, t2) ---");
+        double[][] sommeT1T2 = somme(t1, t2);
+        affiche(sommeT1T2);
+
+        System.out.println("\n--- 5. Test de la methode somme(t1, t3) [doit renvoyer null] ---");
+        double[][] sommeT1T3 = somme(t1, t3);
+        if (sommeT1T3 == null) {
+            System.out.println("Resultat correct : la methode a bien renvoye null.");
+        }
     }
 }
