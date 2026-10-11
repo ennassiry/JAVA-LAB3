@@ -1,6 +1,6 @@
 package com.example.tp;
 
-public class TableauxDoubleUtils {
+public class MatriceUtil {
 
     /**
      * Affiche les valeurs du tableau t, à raison d'une ligne d'écran pour une ligne du tableau,
