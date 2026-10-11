@@ -23,6 +23,17 @@
 ### ▶️ Exécution
 <img width="139" height="92" alt="image" src="https://github.com/user-attachments/assets/f878767f-9dee-4359-bf69-2c7270c4c86a" />
 
+# 📌 Exercice 4 
+
+### ▶️ Exécution
+
+<img width="488" height="285" alt="image" src="https://github.com/user-attachments/assets/93985ab5-e25c-4772-9462-88c393d1a365" />
+
+# 📌 Exercice 5
+
+### ▶️ Exécution
+
+<img width="390" height="183" alt="image" src="https://github.com/user-attachments/assets/d957c32d-9e14-44cd-a15c-90896137abba" />
 
 ## 👨‍💻 Auteur
 
